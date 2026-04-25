@@ -1,4 +1,10 @@
-/32425_homework_2.zip
-/homework2.zip
-/output
-/revision.md
+# compiled files
+*.exe
+*.out
+*.o
+
+# output folders
+*/output/
+
+# archives
+*.zip
