@@ -17,7 +17,10 @@ public:
 
     appointment() {}
 
-    appointment(Patient p, Employee *emp, string d, string t)
+    appointment(Patient p,
+                Employee *emp,
+                string d,
+                string t)
     {
         patient = p;
         employee = emp;
@@ -98,4 +101,3 @@ public:
 };
 
 #endif
-
