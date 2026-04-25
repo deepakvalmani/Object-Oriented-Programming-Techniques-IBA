@@ -139,7 +139,7 @@ int main()
         return a.name < b.name;
     };
 
-    vector<Student> m3 = students, q3 = students;
+    vector<Student> m3 =  students, q3 = students;
 
     merge_sort(m3, 0, m3.size() - 1, name_asc);
     quick_sort(q3, 0, q3.size() - 1, name_asc);
