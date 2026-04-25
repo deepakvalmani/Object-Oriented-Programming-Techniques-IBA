@@ -8,3 +8,9 @@
 
 # archives
 *.zip
+
+// to remove all output folders use this 
+//git ls-files | Where-Object { $_ -like "*/output/*" } | ForEach-Object { git rm --cached $_ }
+//git add .gitignore
+//git commit -m "Remove all output folders and ignore them"
+//git push origin main
