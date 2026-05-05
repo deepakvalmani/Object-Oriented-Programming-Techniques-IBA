@@ -17,7 +17,6 @@ class treatmeant
 
 public:
     string t_name;
-
     double cost;
     string staff_name;
 
